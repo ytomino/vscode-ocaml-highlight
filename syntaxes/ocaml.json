@@ -20,12 +20,10 @@
 			"name": "string.quoted.double.ocaml",
 			"begin": "\"",
 			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.ocaml",
-					"match": "\\\\."
-				}
-			]
+			"patterns": [{
+				"name": "constant.character.escape.ocaml",
+				"match": "\\\\."
+			}]
 		}
 	},
 	"scopeName": "source.ocaml"
