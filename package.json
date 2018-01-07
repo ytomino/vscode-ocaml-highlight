@@ -1,0 +1,26 @@
+{
+    "name": "ocaml-highlight",
+    "displayName": "OCaml Highlight",
+    "description": "OCaml syntax highlight",
+    "version": "0.0.1",
+    "publisher": "ytomino",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ocaml",
+            "aliases": ["OCaml", "ocaml"],
+            "extensions": [".ml",".mli"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ocaml",
+            "scopeName": "source.ocaml",
+            "path": "./syntaxes/ocaml.json"
+        }]
+    }
+}
