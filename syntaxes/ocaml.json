@@ -3,6 +3,15 @@
 	"name": "OCaml",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
+			"include": "#emptyComments"
+		},
+		{
+			"include": "#docComments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -10,6 +19,23 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"name": "comment.block.ocaml",
+			"begin": "\\(\\*([^*]|$|\\*\\*+[^*)])",
+			"end": "\\*\\)",
+			"patterns": []
+		},
+		"emptyComments": {
+			"name": "comment.block.ocaml",
+			"match": "\\(\\*\\*+\\)",
+			"patterns": []
+		},
+		"docComments": {
+			"name": "comment.block.documentation.ocaml",
+			"begin": "\\(\\*\\*([^*)]|$)",
+			"end": "\\*\\)",
+			"patterns": []
+		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.ocaml",
