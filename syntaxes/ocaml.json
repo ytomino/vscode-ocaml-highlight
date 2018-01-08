@@ -15,6 +15,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#characters"
+		},
+		{
 			"include": "#strings"
 		}
 	],
@@ -42,13 +45,24 @@
 				"match": "\\b(if|while|for|return)\\b"
 			}]
 		},
+		"characters": {
+			"patterns": [{
+				"name": "string.quoted.single.ocaml",
+				"match": "'([^\\\\]|(\\\\([\"'ntbr ]|\\d\\d\\d|x[[:xdigit:]][[:xdigit:]]|o[0-3][0-7][0-7])))'",
+				"captures": {
+					"2": {
+						"name": "constant.character.escape.ocaml"
+					}
+				}
+			}]
+		},
 		"strings": {
 			"name": "string.quoted.double.ocaml",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [{
 				"name": "constant.character.escape.ocaml",
-				"match": "\\\\."
+				"match": "\\\\([\"'ntbr ]|\\d\\d\\d|x[[:xdigit:]][[:xdigit:]]|o[0-3][0-7][0-7]|u[[:xdigit:]]+|$)"
 			}]
 		}
 	},
