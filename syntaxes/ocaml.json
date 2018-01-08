@@ -15,6 +15,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#numerics"
+		},
+		{
 			"include": "#characters"
 		},
 		{
@@ -43,6 +46,12 @@
 			"patterns": [{
 				"name": "keyword.control.ocaml",
 				"match": "\\b(and|as|assert|asr|begin|class|constraint|do|done|downto|else|end|exception|external|false|for|fun|function|functor|if|in|include|inherit|initializer|land|lazy|let|lor|lsl|lsr|lxor|match|method|mod|module|mutable|new|nonrec|object|of|open|or|private|rec|sig|struct|then|to|true|try|type|val|virtual|when|while|with)\\b"
+			}]
+		},
+		"numerics": {
+			"patterns": [{
+				"name": "constant.numeric.ocaml",
+				"match": "\\b(0x[[:xdigit:]_]+(\\.[[:xdigit:]_]*([pP][+\\-]?[[:digit:]_]+)?)?|0o[0-7_]+|0b[0-1_]+|\\d[[:digit:]_]*(\\.[[:digit:]_]*([eE][+\\-]?[[:digit:]_]+)?)?)"
 			}]
 		},
 		"characters": {
