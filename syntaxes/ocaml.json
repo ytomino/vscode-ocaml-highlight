@@ -42,19 +42,47 @@
 	"repository": {
 		"comments": {
 			"name": "comment.block.ocaml",
-			"begin": "\\(\\*([^*]|$|\\*\\*+[^*)])",
+			"begin": "(\\(\\*)([^*]|$|\\*\\*+[^*)])",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.definition.comment.ocaml"
+				}
+			},
 			"end": "\\*\\)",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.comment.ocaml"
+				}
+			},
 			"patterns": []
 		},
 		"emptyComments": {
 			"name": "comment.block.ocaml",
-			"match": "\\(\\*\\*+\\)",
+			"match": "(\\(\\*)\\**(\\*\\))",
+			"captures": {
+				"1": {
+					"name": "punctuation.definition.comment.ocaml"
+				},
+				"2": {
+					"name": "punctuation.definition.comment.ocaml"
+				}
+			},
 			"patterns": []
 		},
 		"docComments": {
 			"name": "comment.block.documentation.ocaml",
-			"begin": "\\(\\*\\*([^*)]|$)",
+			"begin": "(\\(\\*\\*)([^*)]|$)",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.definition.comment.ocaml"
+				}
+			},
 			"end": "\\*\\)",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.comment.ocaml"
+				}
+			},
 			"patterns": []
 		},
 		"keywords": {
