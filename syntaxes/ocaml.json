@@ -12,6 +12,9 @@
 			"include": "#docComments"
 		},
 		{
+			"include": "#attributes"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -84,6 +87,34 @@
 				}
 			},
 			"patterns": []
+		},
+		"attributes": {
+			"begin": "(\\[@+)([A-Za-z0-9_'.]+)",
+			"beginCaptures": {
+				"1": {
+					"name": "meta.ocaml"
+				},
+				"2": {
+					"name": "entity.other.attribute-name.ocaml"
+				}
+			},
+			"end": "\\]",
+			"endCaptures": {
+				"0": {
+					"name": "meta.ocaml"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#numerics"
+				},
+				{
+					"include": "#characters"
+				},
+				{
+					"include": "#strings"
+				}
+			]
 		},
 		"keywords": {
 			"patterns": [{
