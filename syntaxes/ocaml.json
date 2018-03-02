@@ -92,7 +92,7 @@
 			"begin": "(\\[@+)([A-Za-z0-9_'.]+)",
 			"beginCaptures": {
 				"1": {
-					"name": "meta.ocaml"
+					"name": "keyword.other.ocaml"
 				},
 				"2": {
 					"name": "entity.other.attribute-name.ocaml"
@@ -101,7 +101,7 @@
 			"end": "\\]",
 			"endCaptures": {
 				"0": {
-					"name": "meta.ocaml"
+					"name": "keyword.other.ocaml"
 				}
 			},
 			"patterns": [
