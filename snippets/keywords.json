@@ -1,0 +1,226 @@
+{
+	"and": {
+		"prefix": "and",
+		"body": "and"
+	},
+	"as": {
+		"prefix": "as",
+		"body": "as"
+	},
+	"assert": {
+		"prefix": "assert",
+		"body": "assert"
+	},
+	"asr": {
+		"prefix": "asr",
+		"body": "asr"
+	},
+	"begin": {
+		"prefix": "begin",
+		"body": "begin"
+	},
+	"class": {
+		"prefix": "class",
+		"body": "class"
+	},
+	"constraint": {
+		"prefix": "constraint",
+		"body": "constraint"
+	},
+	"do": {
+		"prefix": "do",
+		"body": "do"
+	},
+	"done": {
+		"prefix": "done",
+		"body": "done"
+	},
+	"downto": {
+		"prefix": "downto",
+		"body": "downto"
+	},
+	"else": {
+		"prefix": "else",
+		"body": "else"
+	},
+	"end": {
+		"prefix": "end",
+		"body": "end"
+	},
+	"exception": {
+		"prefix": "exception",
+		"body": "exception"
+	},
+	"external": {
+		"prefix": "external",
+		"body": "external"
+	},
+	"false": {
+		"prefix": "false",
+		"body": "false"
+	},
+	"for": {
+		"prefix": "for",
+		"body": "for"
+	},
+	"fun": {
+		"prefix": "fun",
+		"body": "fun"
+	},
+	"function": {
+		"prefix": "function",
+		"body": "function"
+	},
+	"functor": {
+		"prefix": "functor",
+		"body": "functor"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "if"
+	},
+	"in": {
+		"prefix": "in",
+		"body": "in"
+	},
+	"include": {
+		"prefix": "include",
+		"body": "include"
+	},
+	"inherit": {
+		"prefix": "inherit",
+		"body": "inherit"
+	},
+	"initializer": {
+		"prefix": "initializer",
+		"body": "initializer"
+	},
+	"land": {
+		"prefix": "land",
+		"body": "land"
+	},
+	"lazy": {
+		"prefix": "lazy",
+		"body": "lazy"
+	},
+	"let": {
+		"prefix": "let",
+		"body": "let"
+	},
+	"lor": {
+		"prefix": "lor",
+		"body": "lor"
+	},
+	"lsl": {
+		"prefix": "lsl",
+		"body": "lsl"
+	},
+	"lsr": {
+		"prefix": "lsr",
+		"body": "lsr"
+	},
+	"lxor": {
+		"prefix": "lxor",
+		"body": "lxor"
+	},
+	"match": {
+		"prefix": "match",
+		"body": "match"
+	},
+	"method": {
+		"prefix": "method",
+		"body": "method"
+	},
+	"mod": {
+		"prefix": "mod",
+		"body": "mod"
+	},
+	"module": {
+		"prefix": "module",
+		"body": "module"
+	},
+	"mutable": {
+		"prefix": "mutable",
+		"body": "mutable"
+	},
+	"new": {
+		"prefix": "new",
+		"body": "new"
+	},
+	"nonrec": {
+		"prefix": "nonrec",
+		"body": "nonrec"
+	},
+	"object": {
+		"prefix": "object",
+		"body": "object"
+	},
+	"of": {
+		"prefix": "of",
+		"body": "of"
+	},
+	"open": {
+		"prefix": "open",
+		"body": "open"
+	},
+	"or": {
+		"prefix": "or",
+		"body": "or"
+	},
+	"private": {
+		"prefix": "private",
+		"body": "private"
+	},
+	"rec": {
+		"prefix": "rec",
+		"body": "rec"
+	},
+	"sig": {
+		"prefix": "sig",
+		"body": "sig"
+	},
+	"struct": {
+		"prefix": "struct",
+		"body": "struct"
+	},
+	"then": {
+		"prefix": "then",
+		"body": "then"
+	},
+	"to": {
+		"prefix": "to",
+		"body": "to"
+	},
+	"true": {
+		"prefix": "true",
+		"body": "true"
+	},
+	"try": {
+		"prefix": "try",
+		"body": "try"
+	},
+	"type": {
+		"prefix": "type",
+		"body": "type"
+	},
+	"val": {
+		"prefix": "val",
+		"body": "val"
+	},
+	"virtual": {
+		"prefix": "virtual",
+		"body": "virtual"
+	},
+	"when": {
+		"prefix": "when",
+		"body": "when"
+	},
+	"while": {
+		"prefix": "while",
+		"body": "while"
+	},
+	"with": {
+		"prefix": "with",
+		"body": "with"
+	}
+}

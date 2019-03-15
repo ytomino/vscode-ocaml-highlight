@@ -1,0 +1,152 @@
+{
+	"int": {
+		"prefix": "int",
+		"body": "int",
+		"description": "type int"
+	},
+	"char": {
+		"prefix": "char",
+		"body": "char",
+		"description": "type char"
+	},
+	"bytes": {
+		"prefix": "bytes",
+		"body": "bytes",
+		"description": "type bytes"
+	},
+	"string": {
+		"prefix": "string",
+		"body": "string",
+		"description": "type string"
+	},
+	"float": {
+		"prefix": "float",
+		"body": "float",
+		"description": "type float"
+	},
+	"bool": {
+		"prefix": "bool",
+		"body": "bool",
+		"description": "type bool = false | true"
+	},
+	"unit": {
+		"prefix": "unit",
+		"body": "unit",
+		"description": "type unit = ()"
+	},
+	"exn": {
+		"prefix": "exn",
+		"body": "exn",
+		"description": "type exn = .."
+	},
+	"array": {
+		"prefix": "array",
+		"body": "array",
+		"description": "type 'a array"
+	},
+	"list": {
+		"prefix": "list",
+		"body": "list",
+		"description": "type 'a list = [] | (::) of 'a * 'a list"
+	},
+	"option": {
+		"prefix": "option",
+		"body": "option",
+		"description": "type 'a option = None | Some of 'a"
+	},
+	"None": {
+		"prefix": "None",
+		"body": "None",
+		"description": "type 'a option = None | Some of 'a"
+	},
+	"Some": {
+		"prefix": "Some",
+		"body": "Some",
+		"description": "type 'a option = None | Some of 'a"
+	},
+	"int32": {
+		"prefix": "int32",
+		"body": "int32",
+		"description": "type int32"
+	},
+	"int64": {
+		"prefix": "int64",
+		"body": "int64",
+		"description": "type int64"
+	},
+	"nativeint": {
+		"prefix": "nativeint",
+		"body": "nativeint",
+		"description": "type nativeint"
+	},
+	"format6": {
+		"prefix": "format6",
+		"body": "format6",
+		"description": "type ('a, 'b, 'c, 'd, 'e, 'f) format6"
+	},
+	"lazy_t": {
+		"prefix": "lazy_t",
+		"body": "lazy_t",
+		"description": "type +'a lazy_t"
+	},
+	"Match_failure": {
+		"prefix": "Match_failure",
+		"body": "Match_failure",
+		"description": "exception Match_failure of (string * int * int)"
+	},
+	"Assert_failure": {
+		"prefix": "Assert_failure",
+		"body": "Assert_failure",
+		"description": "exception Assert_failure of (string * int * int)"
+	},
+	"Invalid_argument": {
+		"prefix": "Invalid_argument",
+		"body": "Invalid_argument",
+		"description": "exception Invalid_argument of string"
+	},
+	"Failure": {
+		"prefix": "Failure",
+		"body": "Failure",
+		"description": "exception Failure of string"
+	},
+	"Not_found": {
+		"prefix": "Not_found",
+		"body": "Not_found",
+		"description": "exception Not_found"
+	},
+	"Out_of_memory": {
+		"prefix": "Out_of_memory",
+		"body": "Out_of_memory",
+		"description": "exception Out_of_memory"
+	},
+	"Stack_overflow": {
+		"prefix": "Stack_overflow",
+		"body": "Stack_overflow",
+		"description": "exception Stack_overflow"
+	},
+	"Sys_error": {
+		"prefix": "Sys_error",
+		"body": "Sys_error",
+		"description": "exception Sys_error of string"
+	},
+	"End_of_file": {
+		"prefix": "End_of_file",
+		"body": "End_of_file",
+		"description": "exception End_of_file"
+	},
+	"Division_by_zero": {
+		"prefix": "Division_by_zero",
+		"body": "Division_by_zero",
+		"description": "exception Division_by_zero"
+	},
+	"Sys_blocked_io": {
+		"prefix": "Sys_blocked_io",
+		"body": "Sys_blocked_io",
+		"description": "exception Sys_blocked_io"
+	},
+	"Undefined_recursive_module": {
+		"prefix": "Undefined_recursive_module",
+		"body": "Undefined_recursive_module",
+		"description": "exception Undefined_recursive_module of (string * int * int)"
+	}
+}

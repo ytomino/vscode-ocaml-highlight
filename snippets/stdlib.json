@@ -1,0 +1,457 @@
+{
+	"arg": {
+		"prefix": "Arg",
+		"body": "Arg",
+		"description": "module Arg"
+	},
+	"array": {
+		"prefix": "Array",
+		"body": "Array",
+		"description": "module Array"
+	},
+	"Array.Floatarray": {
+		"prefix": "Array.Floatarray",
+		"body": "Array.Floatarray",
+		"description": "module Floatarray\nin Array"
+	},
+	"bigarray": {
+		"prefix": "Bigarray",
+		"body": "Bigarray",
+		"description": "module Bigarray"
+	},
+	"Bigarray.Genarray": {
+		"prefix": "Bigarray.Genarray",
+		"body": "Bigarray.Genarray",
+		"description": "module Genarray\nin Bigarray"
+	},
+	"Bigarray.Array0": {
+		"prefix": "Bigarray.Array0",
+		"body": "Bigarray.Array0",
+		"description": "module Array0\nin Bigarray"
+	},
+	"Bigarray.Array1": {
+		"prefix": "Bigarray.Array1",
+		"body": "Bigarray.Array1",
+		"description": "module Array1\nin Bigarray"
+	},
+	"Bigarray.Array2": {
+		"prefix": "Bigarray.Array2",
+		"body": "Bigarray.Array2",
+		"description": "module Array2\nin Bigarray"
+	},
+	"Bigarray.Array3": {
+		"prefix": "Bigarray.Array3",
+		"body": "Bigarray.Array3",
+		"description": "module Array3\nin Bigarray"
+	},
+	"buffer": {
+		"prefix": "Buffer",
+		"body": "Buffer",
+		"description": "module Buffer"
+	},
+	"bytes": {
+		"prefix": "Bytes",
+		"body": "Bytes",
+		"description": "module Bytes"
+	},
+	"callback": {
+		"prefix": "Callback",
+		"body": "Callback",
+		"description": "module Callback"
+	},
+	"char": {
+		"prefix": "Char",
+		"body": "Char",
+		"description": "module Char"
+	},
+	"complex": {
+		"prefix": "Complex",
+		"body": "Complex",
+		"description": "module Complex"
+	},
+	"condition": {
+		"prefix": "Condition",
+		"body": "Condition",
+		"description": "module Condition"
+	},
+	"digest": {
+		"prefix": "Digest",
+		"body": "Digest",
+		"description": "module Digest"
+	},
+	"dynlink": {
+		"prefix": "Dynlink",
+		"body": "Dynlink",
+		"description": "module Dynlink"
+	},
+	"ephemeron": {
+		"prefix": "Ephemeron",
+		"body": "Ephemeron",
+		"description": "module Ephemeron"
+	},
+	"Ephemeron.S": {
+		"prefix": "Ephemeron.S",
+		"body": "Ephemeron.S",
+		"description": "module type S\nin Ephemeron"
+	},
+	"Ephemeron.SeededS": {
+		"prefix": "Ephemeron.SeededS",
+		"body": "Ephemeron.SeededS",
+		"description": "module type SeededS\nin Ephemeron"
+	},
+	"Ephemeron.K1": {
+		"prefix": "Ephemeron.K1",
+		"body": "Ephemeron.K1",
+		"description": "module K1\nin Ephemeron"
+	},
+	"Ephemeron.K1.Make": {
+		"prefix": "Ephemeron.K1.Make",
+		"body": "Ephemeron.K1.Make",
+		"description": "module Make (H: Hashtbl.HashedType): S with type key = H.t\nin Ephemeron.K1"
+	},
+	"Ephemeron.K1.MakeSeeded": {
+		"prefix": "Ephemeron.K1.MakeSeeded",
+		"body": "Ephemeron.K1.MakeSeeded",
+		"description": "module MakeSeeded (H: Hashtbl.SeededHashedType): SeededS with type key = H.t\nin Ephemeron.K1"
+	},
+	"Ephemeron.K2": {
+		"prefix": "Ephemeron.K2",
+		"body": "Ephemeron.K2",
+		"description": "module K2\nin Ephemeron"
+	},
+	"Ephemeron.K2.Make": {
+		"prefix": "Ephemeron.K2.Make",
+		"body": "Ephemeron.K2.Make",
+		"description": "module Make (H1: Hashtbl.HashedType) (H2: Hashtbl.HashedType): S with type key = H1.t * H2.t\nin Ephemeron.K2"
+	},
+	"Ephemeron.K2.MakeSeeded": {
+		"prefix": "Ephemeron.K2.MakeSeeded",
+		"body": "Ephemeron.K2.MakeSeeded",
+		"description": "module MakeSeeded (H1: Hashtbl.SeededHashedType) (H2: Hashtbl.SeededHashedType): SeededS with type key = H1.t * H2.t\nin Ephemeron.K2"
+	},
+	"Ephemeron.Kn": {
+		"prefix": "Ephemeron.Kn",
+		"body": "Ephemeron.Kn",
+		"description": "module Kn\nin Ephemeron"
+	},
+	"Ephemeron.Kn.Make": {
+		"prefix": "Ephemeron.Kn.Make",
+		"body": "Ephemeron.Kn.Make",
+		"description": "module Make (H: Hashtbl.HashedType): S with type key = H.t array\nin Ephemeron.Kn"
+	},
+	"Ephemeron.Kn.MakeSeeded": {
+		"prefix": "Ephemeron.Kn.MakeSeeded",
+		"body": "Ephemeron.Kn.MakeSeeded",
+		"description": "module MakeSeeded (H: Hashtbl.SeededHashedType): SeededS with type key = H.t array\nin Ephemeron.Kn"
+	},
+	"Ephemeron.GenHashTable": {
+		"prefix": "Ephemeron.GenHashTable",
+		"body": "Ephemeron.GenHashTable",
+		"description": "module GenHashTable\nin Ephemeron"
+	},
+	"Ephemeron.GenHashTable.MakeSeeded": {
+		"prefix": "Ephemeron.GenHashTable.MakeSeeded",
+		"body": "Ephemeron.GenHashTable.MakeSeeded",
+		"description": "module MakeSeeded (H: sig ... end): SeededS with type key = H.t\nin Ephemeron"
+	},
+	"event": {
+		"prefix": "Event",
+		"body": "Event",
+		"description": "module Event"
+	},
+	"filename": {
+		"prefix": "Filename",
+		"body": "Filename",
+		"description": "module Filename"
+	},
+	"format": {
+		"prefix": "Format",
+		"body": "Format",
+		"description": "module Format"
+	},
+	"gc": {
+		"prefix": "Gc",
+		"body": "Gc",
+		"description": "module Gc"
+	},
+	"genlex": {
+		"prefix": "Genlex",
+		"body": "Genlex",
+		"description": "module Genlex"
+	},
+	"graphics": {
+		"prefix": "Graphics",
+		"body": "Graphics",
+		"description": "module Graphics"
+	},
+	"graphicsX11": {
+		"prefix": "GraphicsX11",
+		"body": "GraphicsX11",
+		"description": "module GraphicsX11"
+	},
+	"hashtbl": {
+		"prefix": "Hashtbl",
+		"body": "Hashtbl",
+		"description": "module Hashtbl"
+	},
+	"Hashtbl.HashedType": {
+		"prefix": "Hashtbl.HashedType",
+		"body": "Hashtbl.HashedType",
+		"description": "module type HashedType\nin Hashtbl"
+	},
+	"Hashtbl.S": {
+		"prefix": "Hashtbl.S",
+		"body": "Hashtbl.S",
+		"description": "module type S\nin Hashtbl"
+	},
+	"Hashtbl.Make": {
+		"prefix": "Hashtbl.Make",
+		"body": "Hashtbl.Make",
+		"description": "module Make (H: HashedType): S with type key = H.t\nin Hashtbl"
+	},
+	"Hashtbl.SeededHashedType": {
+		"prefix": "Hashtbl.SeededHashedType",
+		"body": "Hashtbl.SeededHashedType",
+		"description": "module type SeededHashedType\nin Hashtbl"
+	},
+	"Hashtbl.SeededS": {
+		"prefix": "Hashtbl.SeededS",
+		"body": "Hashtbl.SeededS",
+		"description": "module type SeededS\nin Hashtbl"
+	},
+	"Hashtbl.MakeSeeded": {
+		"prefix": "Hashtbl.MakeSeeded",
+		"body": "Hashtbl.MakeSeeded",
+		"description": "module MakeSeeded (H: SeededHashedType): SeededS with type key = H.t\nin Hashtbl"
+	},
+	"int32": {
+		"prefix": "Int32",
+		"body": "Int32",
+		"description": "module Int32"
+	},
+	"int64": {
+		"prefix": "Int64",
+		"body": "Int64",
+		"description": "module Int64"
+	},
+	"lazy": {
+		"prefix": "Lazy",
+		"body": "Lazy",
+		"description": "module Lazy"
+	},
+	"lexing": {
+		"prefix": "Lexing",
+		"body": "Lexing",
+		"description": "module Lexing"
+	},
+	"list": {
+		"prefix": "List",
+		"body": "List",
+		"description": "module List"
+	},
+	"map": {
+		"prefix": "Map",
+		"body": "Map",
+		"description": "module Map"
+	},
+	"Map.OrderedType": {
+		"prefix": "Map.OrderedType",
+		"body": "Map.OrderedType",
+		"description": "module type OrderedType\nin Map"
+	},
+	"Map.S": {
+		"prefix": "Map.S",
+		"body": "Map.S",
+		"description": "module type S\nin Map"
+	},
+	"Map.Make": {
+		"prefix": "Map.Make",
+		"body": "Map.Make",
+		"description": "module Make (Ord: OrderedType): S with type key = Ord.t\nin Map"
+	},
+	"marshal": {
+		"prefix": "Marshal",
+		"body": "Marshal",
+		"description": "module Marshal"
+	},
+	"mutex": {
+		"prefix": "Mutex",
+		"body": "Mutex",
+		"description": "module Mutex"
+	},
+	"nativeint": {
+		"prefix": "Nativeint",
+		"body": "Nativeint",
+		"description": "module Nativeint"
+	},
+	"obj": {
+		"prefix": "Obj",
+		"body": "Obj",
+		"description": "module Obj"
+	},
+	"Obj.Ephemeron": {
+		"prefix": "Obj.Ephemeron",
+		"body": "Obj.Ephemeron",
+		"description": "module Ephemeron\nin Obj"
+	},
+	"oo": {
+		"prefix": "Oo",
+		"body": "Oo",
+		"description": "module Oo"
+	},
+	"parsing": {
+		"prefix": "Parsing",
+		"body": "Parsing",
+		"description": "module Parsing"
+	},
+	"pervasives": {
+		"prefix": "Pervasives",
+		"body": "Pervasives",
+		"description": "module Pervasives"
+	},
+	"Pervasives.LargeFile": {
+		"prefix": "Pervasives.LargeFile",
+		"body": "Pervasives.LargeFile",
+		"description": "module LargeFile\nin Pervasives"
+	},
+	"printexc": {
+		"prefix": "Printexc",
+		"body": "Printexc",
+		"description": "module Printexc"
+	},
+	"Printexc.Slot": {
+		"prefix": "Printexc.Slot",
+		"body": "Printexc.Slot",
+		"description": "module Slot\nin Printexc"
+	},
+	"printf": {
+		"prefix": "Printf",
+		"body": "Printf",
+		"description": "module Printf"
+	},
+	"queue": {
+		"prefix": "Queue",
+		"body": "Queue",
+		"description": "module Queue"
+	},
+	"random": {
+		"prefix": "Random",
+		"body": "Random",
+		"description": "module Random"
+	},
+	"Random.State": {
+		"prefix": "Random.State",
+		"body": "Random.State",
+		"description": "module State\nin Random"
+	},
+	"scanf": {
+		"prefix": "Scanf",
+		"body": "Scanf",
+		"description": "module Scanf"
+	},
+	"set": {
+		"prefix": "Set",
+		"body": "Set",
+		"description": "module Set"
+	},
+	"Set.OrderedType": {
+		"prefix": "Set.OrderedType",
+		"body": "Set.OrderedType",
+		"description": "module type OrderedType\nin Set"
+	},
+	"Set.S": {
+		"prefix": "Set.S",
+		"body": "Set.S",
+		"description": "module type S\nin Set"
+	},
+	"Set.Make": {
+		"prefix": "Set.Make",
+		"body": "Set.Make",
+		"description": "module Make (Ord: OrderedType): S with type elt = Ord.t\nin Set"
+	},
+	"sort": {
+		"prefix": "Sort",
+		"body": "Sort",
+		"description": "module Sort"
+	},
+	"spacetime": {
+		"prefix": "Spacetime",
+		"body": "Spacetime",
+		"description": "module Spacetime"
+	},
+	"Spacetime.Series": {
+		"prefix": "Spacetime.Series",
+		"body": "Spacetime.Series",
+		"description": "module Series\nin Spacetime"
+	},
+	"Spacetime.Snapshot": {
+		"prefix": "Spacetime.Snapshot",
+		"body": "Spacetime.Snapshot",
+		"description": "module Snapshot\nin Spacetime"
+	},
+	"stack": {
+		"prefix": "Stack",
+		"body": "Stack",
+		"description": "module Stack"
+	},
+	"str": {
+		"prefix": "Str",
+		"body": "Str",
+		"description": "module Str"
+	},
+	"stream": {
+		"prefix": "Stream",
+		"body": "Stream",
+		"description": "module Stream"
+	},
+	"string": {
+		"prefix": "String",
+		"body": "String",
+		"description": "module String"
+	},
+	"sys": {
+		"prefix": "Sys",
+		"body": "Sys",
+		"description": "module Sys"
+	},
+	"thread": {
+		"prefix": "Thread",
+		"body": "Thread",
+		"description": "module Thread"
+	},
+	"threadUnix": {
+		"prefix": "ThreadUnix",
+		"body": "ThreadUnix",
+		"description": "module ThreadUnix"
+	},
+	"uchar": {
+		"prefix": "Uchar",
+		"body": "Uchar",
+		"description": "module Uchar"
+	},
+	"unix": {
+		"prefix": "Unix",
+		"body": "Unix",
+		"description": "module Unix"
+	},
+	"Unix.LargeFile": {
+		"prefix": "Unix.LargeFile",
+		"body": "Unix.LargeFile",
+		"description": "module LargeFile\nin Unix"
+	},
+	"weak": {
+		"prefix": "Weak",
+		"body": "Weak",
+		"description": "module Weak"
+	},
+	"Weak.S": {
+		"prefix": "Weak.S",
+		"body": "Weak.S",
+		"description": "module type S\nin Weak"
+	},
+	"Weak.Make": {
+		"prefix": "Weak.Make",
+		"body": "Weak.Make",
+		"description": "module Make (H: Hashtbl.HashedType): S with type data = H.t\nin Weak"
+	}
+}
