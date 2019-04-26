@@ -164,6 +164,16 @@
 		"body": "Filename",
 		"description": "module Filename"
 	},
+	"float": {
+		"prefix": "Float",
+		"body": "Float",
+		"description": "module Float"
+	},
+	"Float.Array": {
+		"prefix": "Float.Array",
+		"body": "Float.Array",
+		"description": "module Array\n in Float"
+	},
 	"format": {
 		"prefix": "Format",
 		"body": "Format",
@@ -368,6 +378,11 @@
 		"prefix": "Set.Make",
 		"body": "Set.Make",
 		"description": "module Make (Ord: OrderedType): S with type elt = Ord.t\nin Set"
+	},
+	"seq": {
+		"prefix": "Seq",
+		"body": "Seq",
+		"description": "module Seq"
 	},
 	"sort": {
 		"prefix": "Sort",
