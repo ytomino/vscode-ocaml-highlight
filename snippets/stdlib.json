@@ -259,6 +259,11 @@
 		"body": "Int64",
 		"description": "module Int64"
 	},
+	"LargeFile": {
+		"prefix": "LargeFile",
+		"body": "LargeFile",
+		"description": "module LargeFile\n in Stdlib"
+	},
 	"lazy": {
 		"prefix": "Lazy",
 		"body": "Lazy",
@@ -343,11 +348,6 @@
 		"prefix": "Pervasives",
 		"body": "Pervasives",
 		"description": "module Pervasives"
-	},
-	"Pervasives.LargeFile": {
-		"prefix": "Pervasives.LargeFile",
-		"body": "Pervasives.LargeFile",
-		"description": "module LargeFile\nin Pervasives"
 	},
 	"printexc": {
 		"prefix": "Printexc",
