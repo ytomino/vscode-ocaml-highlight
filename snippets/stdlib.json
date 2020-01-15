@@ -44,6 +44,11 @@
 		"body": "Bigarray.Array3",
 		"description": "module Array3\nin Bigarray"
 	},
+	"bool": {
+		"prefix": "Bool",
+		"body": "Bool",
+		"description": "module Bool"
+	},
 	"buffer": {
 		"prefix": "Buffer",
 		"body": "Buffer",
@@ -179,6 +184,11 @@
 		"body": "Format",
 		"description": "module Format"
 	},
+	"fun": {
+		"prefix": "Fun",
+		"body": "Fun",
+		"description": "module Fun"
+	},
 	"gc": {
 		"prefix": "Gc",
 		"body": "Gc",
@@ -233,6 +243,11 @@
 		"prefix": "Hashtbl.MakeSeeded",
 		"body": "Hashtbl.MakeSeeded",
 		"description": "module MakeSeeded (H: SeededHashedType): SeededS with type key = H.t\nin Hashtbl"
+	},
+	"int": {
+		"prefix": "Int",
+		"body": "Int",
+		"description": "module Int"
 	},
 	"int32": {
 		"prefix": "Int32",
@@ -304,10 +319,20 @@
 		"body": "Obj.Ephemeron",
 		"description": "module Ephemeron\nin Obj"
 	},
+	"Obj.Extension_constructor": {
+		"prefix": "Obj.Extension_constructor",
+		"body": "Obj.Extension_constructor",
+		"description": "module Extension_constructor\nin Obj"
+	},
 	"oo": {
 		"prefix": "Oo",
 		"body": "Oo",
 		"description": "module Oo"
+	},
+	"option": {
+		"prefix": "Option",
+		"body": "Option",
+		"description": "module Option"
 	},
 	"parsing": {
 		"prefix": "Parsing",
@@ -354,6 +379,11 @@
 		"body": "Random.State",
 		"description": "module State\nin Random"
 	},
+	"result": {
+		"prefix": "Result",
+		"body": "Result",
+		"description": "module Result"
+	},
 	"scanf": {
 		"prefix": "Scanf",
 		"body": "Scanf",
@@ -383,11 +413,6 @@
 		"prefix": "Seq",
 		"body": "Seq",
 		"description": "module Seq"
-	},
-	"sort": {
-		"prefix": "Sort",
-		"body": "Sort",
-		"description": "module Sort"
 	},
 	"spacetime": {
 		"prefix": "Spacetime",
@@ -443,6 +468,11 @@
 		"prefix": "Uchar",
 		"body": "Uchar",
 		"description": "module Uchar"
+	},
+	"unit": {
+		"prefix": "Unit",
+		"body": "Unit",
+		"description": "module Unit"
 	},
 	"unix": {
 		"prefix": "Unix",
