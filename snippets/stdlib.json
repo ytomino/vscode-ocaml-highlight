@@ -1,10 +1,10 @@
 {
-	"arg": {
+	"Arg": {
 		"prefix": "Arg",
 		"body": "Arg",
 		"description": "module Arg"
 	},
-	"array": {
+	"Array": {
 		"prefix": "Array",
 		"body": "Array",
 		"description": "module Array"
@@ -14,7 +14,7 @@
 		"body": "Array.Floatarray",
 		"description": "module Floatarray\nin Array"
 	},
-	"bigarray": {
+	"Bigarray": {
 		"prefix": "Bigarray",
 		"body": "Bigarray",
 		"description": "module Bigarray"
@@ -44,52 +44,52 @@
 		"body": "Bigarray.Array3",
 		"description": "module Array3\nin Bigarray"
 	},
-	"bool": {
+	"Bool": {
 		"prefix": "Bool",
 		"body": "Bool",
 		"description": "module Bool"
 	},
-	"buffer": {
+	"Buffer": {
 		"prefix": "Buffer",
 		"body": "Buffer",
 		"description": "module Buffer"
 	},
-	"bytes": {
+	"Bytes": {
 		"prefix": "Bytes",
 		"body": "Bytes",
 		"description": "module Bytes"
 	},
-	"callback": {
+	"Callback": {
 		"prefix": "Callback",
 		"body": "Callback",
 		"description": "module Callback"
 	},
-	"char": {
+	"Char": {
 		"prefix": "Char",
 		"body": "Char",
 		"description": "module Char"
 	},
-	"complex": {
+	"Complex": {
 		"prefix": "Complex",
 		"body": "Complex",
 		"description": "module Complex"
 	},
-	"condition": {
+	"Condition": {
 		"prefix": "Condition",
 		"body": "Condition",
 		"description": "module Condition"
 	},
-	"digest": {
+	"Digest": {
 		"prefix": "Digest",
 		"body": "Digest",
 		"description": "module Digest"
 	},
-	"dynlink": {
+	"Dynlink": {
 		"prefix": "Dynlink",
 		"body": "Dynlink",
 		"description": "module Dynlink"
 	},
-	"ephemeron": {
+	"Ephemeron": {
 		"prefix": "Ephemeron",
 		"body": "Ephemeron",
 		"description": "module Ephemeron"
@@ -159,17 +159,17 @@
 		"body": "Ephemeron.GenHashTable.MakeSeeded",
 		"description": "module MakeSeeded (H: sig ... end): SeededS with type key = H.t\nin Ephemeron"
 	},
-	"event": {
+	"Event": {
 		"prefix": "Event",
 		"body": "Event",
 		"description": "module Event"
 	},
-	"filename": {
+	"Filename": {
 		"prefix": "Filename",
 		"body": "Filename",
 		"description": "module Filename"
 	},
-	"float": {
+	"Float": {
 		"prefix": "Float",
 		"body": "Float",
 		"description": "module Float"
@@ -179,17 +179,17 @@
 		"body": "Float.Array",
 		"description": "module Array\n in Float"
 	},
-	"format": {
+	"Format": {
 		"prefix": "Format",
 		"body": "Format",
 		"description": "module Format"
 	},
-	"fun": {
+	"Fun": {
 		"prefix": "Fun",
 		"body": "Fun",
 		"description": "module Fun"
 	},
-	"gc": {
+	"Gc": {
 		"prefix": "Gc",
 		"body": "Gc",
 		"description": "module Gc"
@@ -199,12 +199,12 @@
 		"body": "Gc.Memprof",
 		"description": "module Memprof\nin Gc"
 	},
-	"genlex": {
+	"Genlex": {
 		"prefix": "Genlex",
 		"body": "Genlex",
 		"description": "module Genlex"
 	},
-	"hashtbl": {
+	"Hashtbl": {
 		"prefix": "Hashtbl",
 		"body": "Hashtbl",
 		"description": "module Hashtbl"
@@ -239,17 +239,17 @@
 		"body": "Hashtbl.MakeSeeded",
 		"description": "module MakeSeeded (H: SeededHashedType): SeededS with type key = H.t\nin Hashtbl"
 	},
-	"int": {
+	"Int": {
 		"prefix": "Int",
 		"body": "Int",
 		"description": "module Int"
 	},
-	"int32": {
+	"Int32": {
 		"prefix": "Int32",
 		"body": "Int32",
 		"description": "module Int32"
 	},
-	"int64": {
+	"Int64": {
 		"prefix": "Int64",
 		"body": "Int64",
 		"description": "module Int64"
@@ -259,22 +259,22 @@
 		"body": "LargeFile",
 		"description": "module LargeFile\n in Stdlib"
 	},
-	"lazy": {
+	"Lazy": {
 		"prefix": "Lazy",
 		"body": "Lazy",
 		"description": "module Lazy"
 	},
-	"lexing": {
+	"Lexing": {
 		"prefix": "Lexing",
 		"body": "Lexing",
 		"description": "module Lexing"
 	},
-	"list": {
+	"List": {
 		"prefix": "List",
 		"body": "List",
 		"description": "module List"
 	},
-	"map": {
+	"Map": {
 		"prefix": "Map",
 		"body": "Map",
 		"description": "module Map"
@@ -294,22 +294,22 @@
 		"body": "Map.Make",
 		"description": "module Make (Ord: OrderedType): S with type key = Ord.t\nin Map"
 	},
-	"marshal": {
+	"Marshal": {
 		"prefix": "Marshal",
 		"body": "Marshal",
 		"description": "module Marshal"
 	},
-	"mutex": {
+	"Mutex": {
 		"prefix": "Mutex",
 		"body": "Mutex",
 		"description": "module Mutex"
 	},
-	"nativeint": {
+	"Nativeint": {
 		"prefix": "Nativeint",
 		"body": "Nativeint",
 		"description": "module Nativeint"
 	},
-	"obj": {
+	"Obj": {
 		"prefix": "Obj",
 		"body": "Obj",
 		"description": "module Obj"
@@ -324,27 +324,27 @@
 		"body": "Obj.Extension_constructor",
 		"description": "module Extension_constructor\nin Obj"
 	},
-	"oo": {
+	"Oo": {
 		"prefix": "Oo",
 		"body": "Oo",
 		"description": "module Oo"
 	},
-	"option": {
+	"Option": {
 		"prefix": "Option",
 		"body": "Option",
 		"description": "module Option"
 	},
-	"parsing": {
+	"Parsing": {
 		"prefix": "Parsing",
 		"body": "Parsing",
 		"description": "module Parsing"
 	},
-	"pervasives": {
+	"Pervasives": {
 		"prefix": "Pervasives",
 		"body": "Pervasives",
 		"description": "module Pervasives"
 	},
-	"printexc": {
+	"Printexc": {
 		"prefix": "Printexc",
 		"body": "Printexc",
 		"description": "module Printexc"
@@ -354,17 +354,17 @@
 		"body": "Printexc.Slot",
 		"description": "module Slot\nin Printexc"
 	},
-	"printf": {
+	"Printf": {
 		"prefix": "Printf",
 		"body": "Printf",
 		"description": "module Printf"
 	},
-	"queue": {
+	"Queue": {
 		"prefix": "Queue",
 		"body": "Queue",
 		"description": "module Queue"
 	},
-	"random": {
+	"Random": {
 		"prefix": "Random",
 		"body": "Random",
 		"description": "module Random"
@@ -374,17 +374,17 @@
 		"body": "Random.State",
 		"description": "module State\nin Random"
 	},
-	"result": {
+	"Result": {
 		"prefix": "Result",
 		"body": "Result",
 		"description": "module Result"
 	},
-	"scanf": {
+	"Scanf": {
 		"prefix": "Scanf",
 		"body": "Scanf",
 		"description": "module Scanf"
 	},
-	"set": {
+	"Set": {
 		"prefix": "Set",
 		"body": "Set",
 		"description": "module Set"
@@ -404,12 +404,12 @@
 		"body": "Set.Make",
 		"description": "module Make (Ord: OrderedType): S with type elt = Ord.t\nin Set"
 	},
-	"seq": {
+	"Seq": {
 		"prefix": "Seq",
 		"body": "Seq",
 		"description": "module Seq"
 	},
-	"spacetime": {
+	"Spacetime": {
 		"prefix": "Spacetime",
 		"body": "Spacetime",
 		"description": "module Spacetime"
@@ -424,27 +424,27 @@
 		"body": "Spacetime.Snapshot",
 		"description": "module Snapshot\nin Spacetime"
 	},
-	"stack": {
+	"Stack": {
 		"prefix": "Stack",
 		"body": "Stack",
 		"description": "module Stack"
 	},
-	"str": {
+	"Str": {
 		"prefix": "Str",
 		"body": "Str",
 		"description": "module Str"
 	},
-	"stream": {
+	"Stream": {
 		"prefix": "Stream",
 		"body": "Stream",
 		"description": "module Stream"
 	},
-	"string": {
+	"String": {
 		"prefix": "String",
 		"body": "String",
 		"description": "module String"
 	},
-	"sys": {
+	"Sys": {
 		"prefix": "Sys",
 		"body": "Sys",
 		"description": "module Sys"
@@ -469,27 +469,27 @@
 		"body": "Sys.Immediate64.Make",
 		"description": "module Make\nin Sys.Immediate64"
 	},
-	"thread": {
+	"Thread": {
 		"prefix": "Thread",
 		"body": "Thread",
 		"description": "module Thread"
 	},
-	"threadUnix": {
+	"ThreadUnix": {
 		"prefix": "ThreadUnix",
 		"body": "ThreadUnix",
 		"description": "module ThreadUnix"
 	},
-	"uchar": {
+	"Uchar": {
 		"prefix": "Uchar",
 		"body": "Uchar",
 		"description": "module Uchar"
 	},
-	"unit": {
+	"Unit": {
 		"prefix": "Unit",
 		"body": "Unit",
 		"description": "module Unit"
 	},
-	"unix": {
+	"Unix": {
 		"prefix": "Unix",
 		"body": "Unix",
 		"description": "module Unix"
@@ -499,7 +499,7 @@
 		"body": "Unix.LargeFile",
 		"description": "module LargeFile\nin Unix"
 	},
-	"weak": {
+	"Weak": {
 		"prefix": "Weak",
 		"body": "Weak",
 		"description": "module Weak"
