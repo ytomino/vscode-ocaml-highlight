@@ -204,16 +204,6 @@
 		"body": "Genlex",
 		"description": "module Genlex"
 	},
-	"graphics": {
-		"prefix": "Graphics",
-		"body": "Graphics",
-		"description": "module Graphics"
-	},
-	"graphicsX11": {
-		"prefix": "GraphicsX11",
-		"body": "GraphicsX11",
-		"description": "module GraphicsX11"
-	},
 	"hashtbl": {
 		"prefix": "Hashtbl",
 		"body": "Hashtbl",
