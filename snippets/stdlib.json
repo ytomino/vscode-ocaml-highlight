@@ -194,6 +194,11 @@
 		"body": "Gc",
 		"description": "module Gc"
 	},
+	"Gc.Memprof": {
+		"prefix": "Gc.Memprof",
+		"body": "Gc.Memprof",
+		"description": "module Memprof\nin Gc"
+	},
 	"genlex": {
 		"prefix": "Genlex",
 		"body": "Genlex",
