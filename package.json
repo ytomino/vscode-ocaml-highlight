@@ -52,6 +52,10 @@
             },
             {
                 "language": "ocaml",
+                "path": "./snippets/attributes.json"
+            },
+            {
+                "language": "ocaml",
                 "path": "./snippets/builtin.json"
             },
             {

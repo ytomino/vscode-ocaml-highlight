@@ -1,0 +1,102 @@
+{
+	"@warning": {
+		"prefix": "@ocaml.warning",
+		"body": "@ocaml.warning",
+		"description": "[@warning \"OPTION -w\"]\nto a definition or as floating"
+	},
+	"@warnerror": {
+		"prefix": "@ocaml.warnerror",
+		"body": "@ocaml.warnerror",
+		"description": "[@warnerror \"OPTION -w\"]\nto a definition or as floating"
+	},
+	"@alert": {
+		"prefix": "@ocaml.alert",
+		"body": "@ocaml.alert",
+		"description": "[@alert IDENTIFIER [ \"MESSAGE\" ] ]\nto a definition,\n[@alert \"OPTION -alert\"]\nas floating"
+	},
+	"@deprecated": {
+		"prefix": "@ocaml.deprecated",
+		"body": "@ocaml.deprecated",
+		"description": "[@deprecated [ \"MESSAGE\" ] ]\nto a definition"
+	},
+	"@deprecated_mutable": {
+		"prefix": "@ocaml.deprecated_mutable",
+		"body": "@ocaml.deprecated_mutable",
+		"description": "[@deprecated_mutable [ \"MESSAGE\" ] ]\nto a mutable record label in type definition"
+	},
+	"@ppwarning": {
+		"prefix": "@ocaml.ppwarning",
+		"body": "@ocaml.ppwarning",
+		"description": "[@ppwarning \"MESSAGE\"]\nin any context"
+	},
+	"@warn_on_literal_pattern": {
+		"prefix": "@ocaml.warn_on_literal_pattern",
+		"body": "@ocaml.warn_on_literal_pattern",
+		"description": "[@warn_on_literal_pattern]\nto a constructor in type definition"
+	},
+	"@tailcall": {
+		"prefix": "@ocaml.tailcall",
+		"body": "@ocaml.tailcall",
+		"description": "[@tailcall]\nto a function application"
+	},
+	"@inline": {
+		"prefix": "@ocaml.inline",
+		"body": "@ocaml.inline",
+		"description": "[@inline [ never | always ] ]\nto a function or functor definition"
+	},
+	"@inlined": {
+		"prefix": "@ocaml.inlined",
+		"body": "@ocaml.inlined",
+		"description": "[@inlined [ never | always ] ]\nto a function or functor application"
+	},
+	"@noalloc": {
+		"prefix": "@ocaml.noalloc",
+		"body": "@ocaml.noalloc",
+		"description": "[@noalloc]\nto an external definition"
+	},
+	"@unboxed": {
+		"prefix": "@ocaml.unboxed",
+		"body": "@ocaml.unboxed",
+		"description": "[@unboxed]\nto an external or type definition"
+	},
+	"@untagged": {
+		"prefix": "@ocaml.untagged",
+		"body": "@ocaml.untagged",
+		"description": "[@untagged]\nto an external definition"
+	},
+	"@immediate": {
+		"prefix": "@ocaml.immediate",
+		"body": "@ocaml.immediate",
+		"description": "[@immediate]\nto an abstract type definition"
+	},
+	"@immediate64": {
+		"prefix": "@ocaml.immediate64",
+		"body": "@ocaml.immediate64",
+		"description": "[@immediate64]\nto an abstract type definition"
+	},
+	"@boxed": {
+		"prefix": "@ocaml.boxed",
+		"body": "@ocaml.boxed",
+		"description": "[@boxed]\nto a type definition"
+	},
+	"@local": {
+		"prefix": "@ocaml.local",
+		"body": "@ocaml.local",
+		"description": "[@local [ never | always ] ]\nto a function definition"
+	},
+	"@specialise": {
+		"prefix": "@ocaml.specialise",
+		"body": "@ocaml.specialise",
+		"description": "[@specialise [ never | always ] ]\nto a function or functor definition"
+	},
+	"@specialised": {
+		"prefix": "@ocaml.specialised",
+		"body": "@ocaml.specialised",
+		"description": "[@specialised [ never | always ] ]\nto a function application"
+	},
+	"@unrolled": {
+		"prefix": "@ocaml.unrolled",
+		"body": "@ocaml.unrolled",
+		"description": "[@unrolled N]\nto a function application"
+	}
+}
