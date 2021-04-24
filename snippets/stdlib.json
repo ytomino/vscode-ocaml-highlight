@@ -454,6 +454,26 @@
 		"body": "Sys",
 		"description": "module Sys"
 	},
+	"Sys.Immediate64": {
+		"prefix": "Sys.Immediate64",
+		"body": "Sys.Immediate64",
+		"description": "module Immediate64\nin Sys"
+	},
+	"Sys.Immediate64.Non_immediate": {
+		"prefix": "Sys.Immediate64.Non_immediate",
+		"body": "Sys.Immediate64.Non_immediate",
+		"description": "module type Non_immediate\nin Sys.Immediate64"
+	},
+	"Sys.Immediate64.Immediate": {
+		"prefix": "Sys.Immediate64.Immediate",
+		"body": "Sys.Immediate64.Immediate",
+		"description": "module type Immediate\nin Sys.Immediate64"
+	},
+	"Sys.Immediate64.Make": {
+		"prefix": "Sys.Immediate64.Make",
+		"body": "Sys.Immediate64.Make",
+		"description": "module Make\nin Sys.Immediate64"
+	},
 	"thread": {
 		"prefix": "Thread",
 		"body": "Thread",
