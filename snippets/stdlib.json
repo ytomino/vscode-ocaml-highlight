@@ -439,21 +439,6 @@
 		"body": "Seq",
 		"description": "module Seq"
 	},
-	"Spacetime": {
-		"prefix": "Spacetime",
-		"body": "Spacetime",
-		"description": "module Spacetime"
-	},
-	"Spacetime.Series": {
-		"prefix": "Spacetime.Series",
-		"body": "Spacetime.Series",
-		"description": "module Series\nin Spacetime"
-	},
-	"Spacetime.Snapshot": {
-		"prefix": "Spacetime.Snapshot",
-		"body": "Spacetime.Snapshot",
-		"description": "module Snapshot\nin Spacetime"
-	},
 	"Stack": {
 		"prefix": "Stack",
 		"body": "Stack",
