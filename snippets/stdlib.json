@@ -14,6 +14,11 @@
 		"body": "Array.Floatarray",
 		"description": "module Floatarray\nin Array"
 	},
+	"Atomic": {
+		"prefix": "Atomic",
+		"body": "Atomic",
+		"description": "module Atomic"
+	},
 	"Bigarray": {
 		"prefix": "Bigarray",
 		"body": "Bigarray",
@@ -88,6 +93,11 @@
 		"prefix": "Dynlink",
 		"body": "Dynlink",
 		"description": "module Dynlink"
+	},
+	"Either": {
+		"prefix": "Either",
+		"body": "Either",
+		"description": "module Either"
 	},
 	"Ephemeron": {
 		"prefix": "Ephemeron",
@@ -314,6 +324,11 @@
 		"body": "Obj",
 		"description": "module Obj"
 	},
+	"Obj.Closure": {
+		"prefix": "Obj.Closure",
+		"body": "Obj.Closure",
+		"description": "module Closure\nin Obj"
+	},
 	"Obj.Ephemeron": {
 		"prefix": "Obj.Ephemeron",
 		"body": "Obj.Ephemeron",
@@ -383,6 +398,21 @@
 		"prefix": "Scanf",
 		"body": "Scanf",
 		"description": "module Scanf"
+	},
+	"Semaphore": {
+		"prefix": "Semaphore",
+		"body": "Semaphore",
+		"description": "module Semaphore"
+	},
+	"Semaphore.Counting": {
+		"prefix": "Semaphore.Counting",
+		"body": "Semaphore.Counting",
+		"description": "module Counting\nin Semaphore"
+	},
+	"Semaphore.Binary": {
+		"prefix": "Semaphore.Binary",
+		"body": "Semaphore.Binary",
+		"description": "module Binary\nin Semaphore"
 	},
 	"Set": {
 		"prefix": "Set",
