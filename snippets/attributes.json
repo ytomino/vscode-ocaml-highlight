@@ -98,5 +98,15 @@
 		"prefix": "@ocaml.unrolled",
 		"body": "@ocaml.unrolled",
 		"description": "[@unrolled N]\nto a function application"
+	},
+	"@tail_mod_cons": {
+		"prefix": "@ocaml.tail_mod_cons",
+		"body": "@ocaml.tail_mod_cons",
+		"description": "[@tail_mod_cons]\nto a function definition"
+	},
+	"@poll": {
+		"prefix": "@poll",
+		"body": "@poll",
+		"description": "[@poll error]\nto a function definition"
 	}
 }
