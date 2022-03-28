@@ -37,7 +37,7 @@
 	"@tailcall": {
 		"prefix": "@ocaml.tailcall",
 		"body": "@ocaml.tailcall",
-		"description": "[@tailcall]\nto a function application"
+		"description": "[@tailcall [ true | false ] ]\nto a function application"
 	},
 	"@inline": {
 		"prefix": "@ocaml.inline",
