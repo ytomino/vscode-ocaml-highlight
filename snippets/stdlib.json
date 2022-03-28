@@ -249,6 +249,11 @@
 		"body": "Hashtbl.MakeSeeded",
 		"description": "module MakeSeeded (H: SeededHashedType): SeededS with type key = H.t\nin Hashtbl"
 	},
+	"In_channel": {
+		"prefix": "In_channel",
+		"body": "In_channel",
+		"description": "module In_channel"
+	},
 	"Int": {
 		"prefix": "Int",
 		"body": "Int",
@@ -348,6 +353,11 @@
 		"prefix": "Option",
 		"body": "Option",
 		"description": "module Option"
+	},
+	"Out_channel": {
+		"prefix": "Out_channel",
+		"body": "Out_channel",
+		"description": "module Out_channel"
 	},
 	"Parsing": {
 		"prefix": "Parsing",
