@@ -22,29 +22,126 @@
             "scopeName": "source.ocaml",
             "path": "./syntaxes/ocaml.json"
         }],
-        "problemMatchers": [{
-            "name": "ocamlc",
-            "owner": "ocaml-highlight",
-            "fileLocation": [
-                "relative",
-                "${workspaceFolder}"
-            ],
-            "pattern": [
-                {
-                    "regexp": "^File\\s+\"(.*)\",\\s+line\\s+(\\d+)(?:,\\s+characters\\s+(\\d+)(?:-(\\d+))?)?:$",
-                    "file": 1,
-                    "line": 2,
-                    "column": 3,
-                    "endColumn": 4
-                },
-                {
-                    "regexp": "^(?:(Error|Parse\\s+error|Warning\\s+\\d+):)?\\s+(.*)$",
-                    "severity": 1,
-                    "message": 2,
-                    "loop": true
-                }
-            ]
-        }],
+        "problemMatchers": [
+            {
+                "name": "ocamlc",
+                "owner": "ocaml-highlight",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^File\\s+\"(.*)\",\\s+line\\s+(\\d+)(?:,\\s+characters\\s+(\\d+)(?:-(\\d+))?)?:$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "endColumn": 4
+                    },
+                    {
+                        "regexp": "^(Error|Parse\\s+error|Warning\\s+\\d+):\\s+(.*)$",
+                        "severity": 1,
+                        "message": 2
+                    },
+                    {
+                        "regexp": "^(?:[^\\s]|$)"
+                    }
+                ]
+            },
+            {
+                "name": "ocamlc2",
+                "owner": "ocaml-highlight",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^File\\s+\"(.*)\",\\s+line\\s+(\\d+)(?:,\\s+characters\\s+(\\d+)(?:-(\\d+))?)?:$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "endColumn": 4
+                    },
+                    {
+                        "regexp": "^(Error|Parse\\s+error|Warning\\s+\\d+):\\s+(.*)$",
+                        "severity": 1,
+                        "message": 2
+                    },
+                    {
+                        "regexp": "^\\s+(.*)$",
+                        "message": 1,
+                        "loop": true
+                    }
+                ]
+            },
+            {
+                "name": "ocamlc3",
+                "owner": "ocaml-highlight",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^File\\s+\"(.*)\",\\s+line\\s+(\\d+)(?:,\\s+characters\\s+(\\d+)(?:-(\\d+))?)?:$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "endColumn": 4
+                    },
+                    {
+                        "regexp": "^\\d+\\s+\\|\\s+(.*)$",
+                        "code": 1
+                    },
+                    {
+                        "regexp": "^\\s*\\^+$"
+                    },
+                    {
+                        "regexp": "^(Error|Parse\\s+error|Warning\\s+\\d+):\\s+(.*)$",
+                        "severity": 1,
+                        "message": 2
+                    },
+                    {
+                        "regexp": "^(?:[^\\s]|$)"
+                    }
+                ]
+            },
+            {
+                "name": "ocamlc4",
+                "owner": "ocaml-highlight",
+                "fileLocation": [
+                    "relative",
+                    "${workspaceFolder}"
+                ],
+                "pattern": [
+                    {
+                        "regexp": "^File\\s+\"(.*)\",\\s+line\\s+(\\d+)(?:,\\s+characters\\s+(\\d+)(?:-(\\d+))?)?:$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "endColumn": 4
+                    },
+                    {
+                        "regexp": "^\\d+\\s+\\|\\s+(.*)$",
+                        "code": 1
+                    },
+                    {
+                        "regexp": "^\\s*\\^+$"
+                    },
+                    {
+                        "regexp": "^(Error|Parse\\s+error|Warning\\s+\\d+):\\s+(.*)$",
+                        "severity": 1,
+                        "message": 2
+                    },
+                    {
+                        "regexp": "^\\s+(.*)$",
+                        "message": 1,
+                        "loop": true
+                    }
+                ]
+            }
+        ],
         "snippets": [
             {
                 "language": "ocaml",
